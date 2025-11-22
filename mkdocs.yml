@@ -1,0 +1,25 @@
+site_name: SmartCash — PRD
+site_description: SmartCash — SMB cash-flow intelligence + lending orchestrator
+site_author: Sahil Mehta
+repo_url: https://github.com/sahilmehta97/smartcash-prd
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.expand
+    - search.highlight
+    - toc.integrate
+nav:
+  - Home: index.md
+  - PRD: PRD.md
+  - Appendix:
+      - Assets: assets/index.md
+extra_css: []
+extra_javascript: []
+plugins:
+  - search
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - pymdownx.superfences
